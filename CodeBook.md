@@ -21,7 +21,7 @@ For detailed description of the original dataset, refer to README.txt and featur
 
 The original data set includes the following files:
 * `features_info.txt`: Shows information about the variables used on the feature vector.
-* 'features.txt`: List of all features.
+* `features.txt`: List of all features.
 * `activity_labels.txt`: Links the class labels with their activity name.
 * `train/X_train.txt`: Training set.
 * `train/y_train.txt`: Training labels.
@@ -222,7 +222,7 @@ dataMerged<-subset(dataMerged,select=selectedNames)
 
 ### 6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Finally the desired result, a `tidy` data table is created and saved as `tidydata.txt` file.
+Finally the desired result, a tidy data table is created and saved as `tidydata.txt` file.
 
 ```
 library(plyr);
